@@ -1,0 +1,86 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#50035F 30%,black);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    color: rgb(220, 220, 220);
+    /* color: white; */
+}
+header{
+    background-color: black;
+    height: 50px;
+    /* padding-top: 10px; */
+    display: flex;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#info-cine{
+    /* background-color: rgb(112, 174, 255); */
+    max-width: 60%;
+    display: inline-block;
+    margin: 5vw;
+    margin-bottom: 40px;
+}
+h1{
+    font-weight: bold;
+    font-size: 24pt;
+}
+#descripcion-cine{
+    width: 70%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+label{
+    font-weight: bold;
+}
+.label-p{
+    display: inline;
+}
+
+
+
+#secc-imagen-cine{
+    /* background-color: rgb(255, 144, 144); */
+    display: inline-block;
+}
+
+
+
+#secc-comentarios{
+    /* background-color: greenyellow; */
+    /* width: 80vw; */
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+#titulo-boton{
+    margin-bottom: 20px;
+}
+h2{
+    font-weight: bold;
+    font-size: 16pt;
+    display: inline;
+}
+#titulo-boton button{
+    float: right;
+}
+.comentario{
+    border: solid 2px rgb(141, 104, 143);
+    margin: auto;
+    padding: 10px;
+}
+h3{
+    font-weight: bold;
+    font-size: 14pt;
+    margin-bottom: 5px;
+}
+button{
+    padding: 6px;
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: #fad80f;
+}
