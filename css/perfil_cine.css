@@ -1,6 +1,5 @@
 main{
     padding: 1vw 10vw 1vw 10vw;
-    height: 150vh;
 }
 #info-cine{
     max-width: 60%;
@@ -11,6 +10,7 @@ main{
 h1{
     font-weight: bold;
     font-size: 24pt;
+    font-family: "Scheherazade New";
 }
 #descripcion-cine{
     width: 70%;
@@ -33,7 +33,11 @@ label{
     text-align: center;
 }
 #secc-imagen-cine img{
-    width: 500px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+#secc-imagen-cine label{
+    margin-right: 50%;
 }
 
 
@@ -42,9 +46,10 @@ label{
     /* width: 80vw; */
     /* margin-left: 5vw;
     margin-right: 5vw; */
+    margin-top: 50px;
 }
 #titulo-boton{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 h2{
     font-weight: bold;
