@@ -1,9 +1,12 @@
+main{
+    padding: 1vw 10vw 1vw 10vw;
+    height: 150vh;
+}
 #info-cine{
-    /* background-color: rgb(112, 174, 255); */
     max-width: 60%;
-    display: inline-block;
-    margin: 5vw;
     margin-bottom: 40px;
+    /* background-color: blue; */
+    float: left;
 }
 h1{
     font-weight: bold;
@@ -26,15 +29,19 @@ label{
 #secc-imagen-cine{
     /* background-color: rgb(255, 144, 144); */
     display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+#secc-imagen-cine img{
+    width: 500px;
 }
 
 
-
 #secc-comentarios{
-    /* background-color: greenyellow; */
+    /* background-color: rgba(172, 255, 47, 0.486); */
     /* width: 80vw; */
-    margin-left: 5vw;
-    margin-right: 5vw;
+    /* margin-left: 5vw;
+    margin-right: 5vw; */
 }
 #titulo-boton{
     margin-bottom: 20px;

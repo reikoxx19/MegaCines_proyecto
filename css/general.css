@@ -1,7 +1,7 @@
 html{
     background-image: linear-gradient(#69057e,#50035f 30%,black);
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    background-size: 100% 100%;
 
     font-family: "Montserrat";
     /* font-family: "Scheherazade New"; */  /*Este es la otra fuente por si acaso*/
