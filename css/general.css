@@ -71,3 +71,10 @@ footer a{
 footer img{
     width: 6%
 }
+#iconos-footer{
+    /* text-align: center; */
+    font-size: 16pt;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
