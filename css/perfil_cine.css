@@ -1,5 +1,5 @@
 main{
-    padding: 1vw 10vw 1vw 10vw;
+    padding: 2vw 10vw 1vw 10vw;
 }
 #info-cine{
     max-width: 60%;
@@ -63,6 +63,7 @@ h2{
     border: solid 2px rgb(141, 104, 143);
     margin: auto;
     padding: 10px;
+    margin-bottom: 10px;
 }
 h3{
     font-weight: bold;
