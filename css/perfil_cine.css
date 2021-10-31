@@ -9,7 +9,7 @@ main{
 }
 h1{
     font-weight: bold;
-    font-size: 24pt;
+    font-size: 30pt;
     font-family: "Scheherazade New";
 }
 #descripcion-cine{
@@ -35,6 +35,7 @@ label{
 #secc-imagen-cine img{
     width: 90%;
     margin-bottom: 20px;
+    border: solid 2px black;
 }
 #secc-imagen-cine label{
     margin-right: 50%;
@@ -42,10 +43,6 @@ label{
 
 
 #secc-comentarios{
-    /* background-color: rgba(172, 255, 47, 0.486); */
-    /* width: 80vw; */
-    /* margin-left: 5vw;
-    margin-right: 5vw; */
     margin-top: 50px;
 }
 #titulo-boton{
@@ -64,6 +61,14 @@ h2{
     margin: auto;
     padding: 10px;
     margin-bottom: 10px;
+}
+.comentario div{
+    display: inline-block;
+}
+.usuario-img{
+    margin-right: 5px;
+    font-size: 30pt;
+    vertical-align: center;
 }
 h3{
     font-weight: bold;

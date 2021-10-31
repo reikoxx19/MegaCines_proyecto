@@ -1,0 +1,101 @@
+main{
+    padding: 2vw 5vw 2vw 5vw;
+}
+#imagen-div{
+    /* background-color: blue; */
+    min-width: 40%;
+    float: left;
+    text-align: center;
+}
+#imagen-div img{
+    object-fit: cover;
+    /* width: 100%; */
+    height: 350px;
+    margin-bottom: 20px;
+    border: solid 4px black;
+}
+#imagen-div label{
+    margin-right: 15%;
+}
+label{
+    font-weight: bold;
+}
+.label-p{
+    display: inline;
+}
+
+
+#info-pelicula{
+    /* background-color: rgb(255, 47, 75); */
+    width: 60%;
+    display: inline-block;
+}
+#descripcion-pelicula{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+h1{
+    font-family: "Scheherazade New";
+    font-size: 30pt;
+    font-weight: bold;
+}
+#info-pelicula div{
+    margin-bottom: 20px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 16pt;
+    display: inline;
+}
+#secc-tandas{
+    /* background-color: rgb(168, 168, 0); */
+    margin-top: 40px;
+}
+.tanda{
+    background: linear-gradient(#69057e,#50035f);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tanda:hover{
+    background: #50035f;
+}
+.titulo-boton{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tandas-h4{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#secc-comentarios{
+    /* background-color: green; */
+    margin-top: 40px;
+}
+
+.comentario{
+    border: solid 2px rgb(141, 104, 143);
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.comentario div{
+    display: inline-block;
+}
+.usuario-img{
+    margin-right: 5px;
+    font-size: 30pt;
+    vertical-align: center;
+}
+h3{
+    font-weight: bold;
+    font-size: 14pt;
+    margin-top: 5px;
+}

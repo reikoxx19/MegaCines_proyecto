@@ -9,10 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/perfil_cine.css">
-    <title>Perfil cine</title>
+    <link rel="stylesheet" href="css/perfil_pelicula.css">
+    <title>Perfil pelicula</title>
 </head>
     <body>
+
         <header>
             <img src="imgs/MegaCines_logo.jpg">
             <nav>
@@ -24,32 +25,91 @@
         </header>
 
         <main>
-            <div id="info-cine">
-                <h1 id="nombre-cine">Cinemark</h1>
-                <p id="descripcion-cine">
-                    Descripcion del cine. Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Consequuntur praesentium 
-                    animi minima, aliquid qui ex. 
-                    Est doloribus assumenda explicabo 
-                    velit quis? Quis corrupti ab excepturi 
-                    corporis porro voluptates, vitae dolor!
+            <div id="imagen-div">
+                <img src="imgs/pelicula_the_thing.jpg">
+
+                <div>
+                    <label for="calificaion-pelicula">Calificacion:</label>
+                    <p id="calificaion-pelicula" class="label-p">7.3</p>
+                </div>
+            </div>
+
+            <div id="info-pelicula">
+                <h1 id="titulo-pelicula">The Thing</h1>
+                
+                <p id="descripcion-pelicula">Un equipo científico de la Antártida descubre 
+                    un ente extraño que podría ser letal para la humanidad, un extraterrestre 
+                    que puede duplicar otras formas de vida.
                 </p>
-                <label for="direccion">Direccion:</label>
-                <p id="direccion" class="label-p">Mall san pedro</p>
+
+                <div>
+                    <label for="duracion-pelicula">Duracion:</label>
+                    <p id="duracion-pelicula" class="label-p">1h 49m</p>
+                </div>
+
+                <div>
+                    <label for="anio-pelicula">Año:</label>
+                    <p id="anio-pelicula" class="label-p">1982</p>
+                </div>
+
+                <div>
+                    <label for="categoria-pelicula">Categorias</label>
+                    <p id="categoria-pelicula" class="label-p">Horror/Ciencia ficcion</p>
+                </div>
+
+                <div>
+                    <label for="idioma-pelicula">Idioma:</label>
+                    <p id="idioma-pelicula" class="label-p">Ingles</p>
+                </div>
+
+                <div>
+                    <label for="doblaje-pelicula">Doblaje:</label>
+                    <p id="doblaje-pelicula" class="label-p">Español</p>
+                </div>
+
+                <div>
+                    <label for="subtitulos-pelicula">Subtitulos:</label>
+                    <p id="subtitulos-pelicula" class="label-p">Español</p>
+                </div>
+
+                <div>
+                    <label for="categoria-edad">Classificacion de edad:</label>
+                    <p id="categoria-edad" class="label-p">+18</p>
+                </div>
             </div>
-    
-            <div id="secc-imagen-cine">
-                <img src="imgs/geoffrey-moffett-TFRezw7pQwI-unsplash.jpg">
-                <label for="calificacion-cine">Calificacion:</label>
-                <p id="calificacion-cine" class="label-p">7.3</p>
+
+            <div id="secc-tandas">
+                <div class="titulo-boton">
+                    <h2>Tandas</h2>
+                    <button type="button">Reservar/Comprar asientos</button>
+                </div>
+
+                <div class="titulo-boton tandas-h4">
+                    <h4 class="label-p">Dia</h4>
+                    <h4 class="label-p">Hora</h4>
+                    <h4 class="label-p">Cine</h4>
+                </div>
+                
+                <div>
+                    <div class="tanda">
+                        <p class="label-p">23 de febrero</p>
+                        <p class="label-p">5:00 pm - 7:00 pm</p>
+                        <p class="label-p">Cinemark</p>
+                    </div>
+                    <div class="tanda">
+                        <p class="label-p">23 de febrero</p>
+                        <p class="label-p">7:00 pm - 9:00 pm</p>
+                        <p class="label-p">Cinemark</p>
+                    </div>
+                </div>
             </div>
-    
+
             <div id="secc-comentarios">
-                <div id="titulo-boton">
+                <div class="titulo-boton">
                     <h2>Comentarios</h2>
                     <button type="button">Escribir comentario</button>
                 </div>
-                <div id="comentarios-div">
+                <div>
                     <div class="comentario">
                         <div class="usuario-img">
                             <i class="fas fa-user-circle"></i>
