@@ -2,14 +2,12 @@ main{
     padding: 2vw 5vw 2vw 5vw;
 }
 #imagen-div{
-    /* background-color: blue; */
     min-width: 40%;
     float: left;
     text-align: center;
 }
 #imagen-div img{
     object-fit: cover;
-    /* width: 100%; */
     height: 350px;
     margin-bottom: 20px;
     border: solid 4px black;
@@ -26,7 +24,6 @@ label{
 
 
 #info-pelicula{
-    /* background-color: rgb(255, 47, 75); */
     width: 60%;
     display: inline-block;
 }
@@ -50,19 +47,22 @@ h2{
     display: inline;
 }
 #secc-tandas{
-    /* background-color: rgb(168, 168, 0); */
     margin-top: 40px;
 }
 .tanda{
-    background: linear-gradient(#69057e,#50035f);
+    /* background: linear-gradient(#69057e,#50035f); */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* background: linear-gradient(rgba(0, 0, 0),#50035f); */
     display: flex;
     justify-content: space-between;
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #eb8f38;
 }
 .tanda:hover{
-    background: #50035f;
+    /* background: #50035f; */
+    background-color: black;
 }
 .titulo-boton{
     margin-bottom: 20px;
@@ -76,8 +76,7 @@ h2{
 }
 
 #secc-comentarios{
-    /* background-color: green; */
-    margin-top: 40px;
+    margin-top: 6vh;
 }
 
 .comentario{
