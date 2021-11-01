@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
     <!--link rel="stylesheet" href="css/reset.css"-->
     <!--reset no me esta dejando cambiar tama;o de fuentes-->
-    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/formularios.css">
 
 </head>
 
@@ -41,24 +41,43 @@
         <h4 class="texto_centrado">Registrar nueva sala</h4>
         <h1 class="texto_centrado">Nueva sala</h1>
         <form name="nombre sala" action="*" method="GET">
-            <p>Nombre</p>
-            <input type="text">
 
-            <form name="nombre sala" action="*" method="GET">
-                <p>Codigo de sala</p>
-                <input type="text">
+            <section>
+                <!--insertar boton de eliminar-->
+                <div>
+                    <label>Desactivar sala</label>
+                    <input type="checkbox">
+                </div>
 
-                <form name="nombre sala" action="*" method="GET">
-                    <p>Tipo de sala</p>
-                    <input type="text">
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" id="txt_nombre" />
+                </div>
 
+                <div>
                     <form name="nombre sala" action="*" method="GET">
-                        <p>Ubicación</p>
-                        <input type="text">
+                        <label>Codigo de sala</label>
+                        <input type="text" id="txt_codigo_sala" />
+                </div>
 
-                        <form name="nombre sala" action="*" method="GET">
-                            <p>Cantidad de butacas</p>
-                            <input type="number">
+                <div>
+                    <form name="nombre sala" action="*" method="GET">
+                        <label>Tipo de sala</label>
+                        <input type="text" id="txt_tipo_sala" />
+                </div>
+
+                <div>
+                    <form name="nombre sala" action="*" method="GET">
+                        <label>Ubicación</label>
+                        <input type="text" id="txt_ubicacion" />
+                </div>
+
+                <div>
+                    <form name="nombre sala" action="*" method="GET">
+                        <label>Cantidad de butacas</label>
+                        <input type="number" id="cantidad_butacas" />
+                </div>
+            </section>
 
     </main>
 
