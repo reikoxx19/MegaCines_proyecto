@@ -43,41 +43,39 @@
         <form name="nombre sala" action="*" method="GET">
 
             <section>
-                <!--insertar boton de eliminar-->
-                <div>
-                    <label>Desactivar sala</label>
-                    <input type="checkbox">
-                </div>
 
-                <div>
-                    <form name="nombre" action="*" method="GET"></form>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre"></label>
-                </div>
+                <form name="nombre" action="*" method="GET">
+                    <!--insertar boton de eliminar-->
+                    <div>
+                        <label>Desactivar sala</label>
+                        <input type="checkbox">
+                    </div>
 
-                <div>
-                    <form name="codigo_sala" action="*" method="GET">
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre"></label>
+                    </div>
+
+                    <div>
                         <label>Codigo de sala</label>
-                        <input type="text" id="codigo_sala" />
-                </div>
+                        <input type="text" name="codigo_sala" id="codigo_sala" />
+                    </div>
 
-                <div>
-                    <form name="tipo_sala" action="*" method="GET">
+                    <div>
                         <label>Tipo de sala</label>
-                        <input type="text" id="tipo_sala" />
-                </div>
+                        <input type="text" name="tipo_sala" id="tipo_sala" />
+                    </div>
 
-                <div>
-                    <form name="ubicacion" action="*" method="GET">
+                    <div>
                         <label>Ubicación</label>
-                        <input type="text" id="ubicacion" />
-                </div>
+                        <input type="text" name="ubicacion" id="ubicacion" />
+                    </div>
 
-                <div>
-                    <form name="cantidad_butacas" action="*" method="GET">
+                    <div>
                         <label>Cantidad de butacas</label>
-                        <input type="number" id="cantidad_butacas" />
-                </div>
+                        <input type="number" name="cantidad_butacas" id="cantidad_butacas" />
+                    </div>
+                </form>
             </section>
 
     </main>
