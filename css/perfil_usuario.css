@@ -43,3 +43,13 @@ label{
     display: block;
     margin-top: 10px;
 }
+input{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* border: solid 1px #eb8f38; */
+    color: #eb8f38;
+}
+input:focus{
+    border: solid 2px red !important;
+    background-color: black;
+}
