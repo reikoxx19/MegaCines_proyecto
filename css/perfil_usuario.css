@@ -1,0 +1,44 @@
+main{
+    padding: 2vw 5vw 2vw 5vw;
+}
+#info-usuario{
+    /* background-color: blue; */
+    width: 60%;
+    float: left;
+}
+h1{
+    font-family: "Scheherazade New";
+    font-weight: bold;
+    font-size: 30pt;
+}
+label{
+    font-weight: bold;
+}
+.label-p{
+    display: inline-block;
+}
+.info-div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#secc-imagen{
+    /* background-color: brown; */
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    height: 350px;
+}
+#secc-imagen img{
+    width: 30%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#secc-botones{
+    /* background-color: aqua; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#secc-botones button{
+    display: block;
+    margin-top: 10px;
+}
